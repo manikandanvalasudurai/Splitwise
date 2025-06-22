@@ -1,5 +1,4 @@
 package com.mani.example.splitwise.services;
-
 import com.mani.example.splitwise.exceptions.UserNotFoundException;
 import com.mani.example.splitwise.models.Expense;
 import com.mani.example.splitwise.models.ExpenseUser;
@@ -8,7 +7,6 @@ import com.mani.example.splitwise.repositories.ExpenseUserRepository;
 import com.mani.example.splitwise.repositories.UserRepository;
 import com.mani.example.splitwise.strategy.SettleUpStrategy;
 import org.springframework.stereotype.Service;
-
 import java.util.*;
 
 @Service
