@@ -1,12 +1,10 @@
 package com.mani.example.splitwise.models;
-import jakarta.persistence.Entity;
-import jakarta.persistence.ManyToMany;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 
 import java.util.List;
 
-@Entity(name = "groups")
+@Entity
+@Table(name = "`group`")
 public class Group extends BaseModel {
     private String name;
     @ManyToOne
